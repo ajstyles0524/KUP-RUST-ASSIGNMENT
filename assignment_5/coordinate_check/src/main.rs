@@ -86,8 +86,8 @@ fn main() {
     let point_check_1 = (-2, 0);
     // point 2 to check coordinate
     let point_check_2 = (0, 3);
-    // calling check_coordinate function for point 1
+    // calling check_coordinate function for point_1
     check_coordinate(point_check_1);
-    // calling check_coordinate function for point 2
+    // calling check_coordinate function for point_2
     check_coordinate(point_check_2);
 }
