@@ -46,7 +46,7 @@ pub enum Position {
 ///
 /// #Return
 ///
-/// Returns Result enum which is used give the Position lied point and handle Error as well....
+/// No return 
 pub fn check_coordinate((x_axis, y_axis): (i32, i32)) {
     match (x_axis, y_axis) {
         (x_axis, y_axis) if x_axis > 0 && y_axis > 0 => println!(
