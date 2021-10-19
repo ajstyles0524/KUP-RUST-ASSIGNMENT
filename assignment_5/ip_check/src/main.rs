@@ -31,7 +31,7 @@ pub enum IpAddress {
 /// No return 
 pub fn check_ip_address(ipconfig: (u128, u128, u128, u128)) {
     match ipconfig {
-        (1..=126, 0..=255, 0..=255, 1..=254) => println!(
+        (1..=127, 0..=255, 0..=255, 1..=254) => println!(
             "IpAddress::ClassA({}.{}.{}.{})",
             ipconfig.0, ipconfig.1, ipconfig.2, ipconfig.3
         ),
