@@ -28,7 +28,7 @@ pub enum IpAddress {
 ///
 /// #Return
 ///
-/// Returns Result enum which used give the Class Of Ip and handle Error as well....
+/// No return 
 pub fn check_ip_address(ipconfig: (u128, u128, u128, u128)) {
     match ipconfig {
         (1..=126, 0..=255, 0..=255, 1..=254) => println!(
